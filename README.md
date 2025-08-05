@@ -1,15 +1,98 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a>
 </p>
 
-## About Laravel
+<div align="center">
+  <h1>HANE 羽</h1>
+  <p>
+    Sebuah platform jejaring sosial modern yang dibangun dengan Laravel, React, dan Inertia.js.
+  </p>
+</div>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+  <a href="#-tentang-proyek">Tentang Proyek</a> •
+  <a href="#-fitur-utama">Fitur</a> •
+  <a href="#-tumpukan-teknologi">Teknologi</a> •
+  <a href="#-panduan-instalasi">Instalasi</a>
+</p>
+
+---
+
+## 📜 Tentang Proyek
+
+**HANE** adalah sebuah platform jejaring sosial yang dirancang untuk memungkinkan pengguna terhubung, berbagi, dan membentuk komunitas. Proyek ini dibangun sebagai aplikasi halaman tunggal (SPA) menggunakan kekuatan backend Laravel dan antarmuka pengguna yang reaktif dari React, yang dihubungkan secara elegan oleh Inertia.js.
+
+Tujuan utama dari proyek ini adalah untuk menyediakan platform yang cepat, modern, dan intuitif di mana pengguna dapat:
+-   Membangun dan mengelola profil pribadi mereka.
+-   Terhubung dengan pengguna lain melalui sistem pertemanan.
+-   Berbagi pemikiran dan momen melalui postingan teks dan gambar.
+-   Membentuk dan bergabung dengan grup berdasarkan minat yang sama.
+
+---
+
+## ✨ Fitur Utama
+
+- **👤 Manajemen Pengguna**: Otentikasi, profil pengguna yang dapat disesuaikan, dan halaman profil publik. Termasuk validasi username secara *real-time*.
+- **🤝 Sistem Pertemanan**: Cari pengguna, kirim/terima/tolak permintaan, dan kelola daftar teman dengan notifikasi SweetAlert2.
+- **✍️ Sistem Postingan**: Buat postingan dengan teks & gambar, validasi di sisi klien, dan sistem *like*.
+- **🏘️ Sistem Grup**: Buat grup, kelola keanggotaan, dan buat postingan khusus di dalam grup.
+
+---
+
+## 🚀 Tumpukan Teknologi
+
+-   **Backend**: [Laravel 10.x](https://laravel.com/)
+-   **Frontend**: [React.js](https://reactjs.org/)
+-   **Backend-Frontend**: [Inertia.js](https://inertiajs.com/)
+-   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+-   **Build Tool**: [Vite](https://vitejs.dev/)
+-   **Notifikasi**: [SweetAlert2](https://sweetalert2.github.io/)
+
+---
+
+## 🛠️ Panduan Instalasi
+
+1.  **Clone repositori & masuk ke direktori:**
+    ```bash
+    git clone https://github.com/username/hane.git
+    cd hane
+    ```
+
+2.  **Instal dependensi:**
+    ```bash
+    composer install
+    npm install
+    ```
+
+3.  **Setup Environment:**
+    ```bash
+    cp .env.example .env
+    php artisan key:generate
+    ```
+
+4.  **Konfigurasi `.env`** Anda dengan detail database yang benar.
+
+5.  **Migrasi Database & Link Storage:**
+    ```bash
+    php artisan migrate
+    php artisan storage:link
+    ```
+
+6.  **Jalankan Server Pengembangan:**
+    -   Di satu terminal: `npm run dev`
+    -   Di terminal lain: `php artisan serve`
+
+7.  Akses aplikasi di `http://127.0.0.1:8000`.
+
+---
+
+<br>
+<hr>
+<br>
+
+## About Laravel (Default)
+
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects.
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
@@ -23,38 +106,11 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
 ## Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
