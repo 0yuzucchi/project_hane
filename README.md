@@ -18,7 +18,7 @@
 
 ---
 
-## 📜 Tentang Proyek
+## Tentang Proyek
 
 **HANE** adalah sebuah platform jejaring sosial yang dirancang untuk memungkinkan pengguna terhubung, berbagi, dan membentuk komunitas. Proyek ini dibangun sebagai aplikasi halaman tunggal (SPA) menggunakan kekuatan backend Laravel dan antarmuka pengguna yang reaktif dari React, yang dihubungkan secara elegan oleh Inertia.js.
 
@@ -30,16 +30,16 @@ Tujuan utama dari proyek ini adalah untuk menyediakan platform yang cepat, moder
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
-- **👤 Manajemen Pengguna**: Otentikasi, profil pengguna yang dapat disesuaikan, dan halaman profil publik. Termasuk validasi username secara *real-time*.
-- **🤝 Sistem Pertemanan**: Cari pengguna, kirim/terima/tolak permintaan, dan kelola daftar teman dengan notifikasi SweetAlert2.
-- **✍️ Sistem Postingan**: Buat postingan dengan teks & gambar, validasi di sisi klien, dan sistem *like*.
-- **🏘️ Sistem Grup**: Buat grup, kelola keanggotaan, dan buat postingan khusus di dalam grup.
+- ** Manajemen Pengguna**: Otentikasi, profil pengguna yang dapat disesuaikan, dan halaman profil publik. Termasuk validasi username secara *real-time*.
+- ** Sistem Pertemanan**: Cari pengguna, kirim/terima/tolak permintaan, dan kelola daftar teman dengan notifikasi SweetAlert2.
+- ** Sistem Postingan**: Buat postingan dengan teks & gambar, validasi di sisi klien, dan sistem *like*.
+- ** Sistem Grup**: Buat grup, kelola keanggotaan, dan buat postingan khusus di dalam grup.
 
 ---
 
-## 🚀 Tumpukan Teknologi
+## Teknologi
 
 -   **Backend**: [Laravel 10.x](https://laravel.com/)
 -   **Frontend**: [React.js](https://reactjs.org/)
@@ -50,47 +50,11 @@ Tujuan utama dari proyek ini adalah untuk menyediakan platform yang cepat, moder
 
 ---
 
-## 🛠️ Panduan Instalasi
-
-1.  **Clone repositori & masuk ke direktori:**
-    ```bash
-    git clone https://github.com/username/hane.git
-    cd hane
-    ```
-
-2.  **Instal dependensi:**
-    ```bash
-    composer install
-    npm install
-    ```
-
-3.  **Setup Environment:**
-    ```bash
-    cp .env.example .env
-    php artisan key:generate
-    ```
-
-4.  **Konfigurasi `.env`** Anda dengan detail database yang benar.
-
-5.  **Migrasi Database & Link Storage:**
-    ```bash
-    php artisan migrate
-    php artisan storage:link
-    ```
-
-6.  **Jalankan Server Pengembangan:**
-    -   Di satu terminal: `npm run dev`
-    -   Di terminal lain: `php artisan serve`
-
-7.  Akses aplikasi di `http://127.0.0.1:8000`.
-
----
-
 <br>
 <hr>
 <br>
 
-## About Laravel (Default)
+## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects.
 
