@@ -12,8 +12,7 @@
 <p align="center">
   <a href="#-tentang-proyek">Tentang Proyek</a> •
   <a href="#-fitur-utama">Fitur</a> •
-  <a href="#-tumpukan-teknologi">Teknologi</a> •
-  <a href="#-panduan-instalasi">Instalasi</a>
+  <a href="#-teknologi">Teknologi</a> •
 </p>
 
 ---
