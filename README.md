@@ -12,7 +12,7 @@
 <p align="center">
   <a href="#-tentang-proyek">Tentang Proyek</a> •
   <a href="#-fitur-utama">Fitur</a> •
-  <a href="#-teknologi">Teknologi</a> •
+  <a href="#-teknologi">Teknologi</a>
 </p>
 
 ---
@@ -31,10 +31,10 @@ Tujuan utama dari proyek ini adalah untuk menyediakan platform yang cepat, moder
 
 ## Fitur Utama
 
-- ** Manajemen Pengguna**: Otentikasi, profil pengguna yang dapat disesuaikan, dan halaman profil publik. Termasuk validasi username secara *real-time*.
-- ** Sistem Pertemanan**: Cari pengguna, kirim/terima/tolak permintaan, dan kelola daftar teman dengan notifikasi SweetAlert2.
-- ** Sistem Postingan**: Buat postingan dengan teks & gambar, validasi di sisi klien, dan sistem *like*.
-- ** Sistem Grup**: Buat grup, kelola keanggotaan, dan buat postingan khusus di dalam grup.
+- Manajemen Pengguna: Otentikasi, profil pengguna yang dapat disesuaikan, dan halaman profil publik. Termasuk validasi username secara *real-time*.
+- Sistem Pertemanan: Cari pengguna, kirim/terima/tolak permintaan, dan kelola daftar teman dengan notifikasi SweetAlert2.
+- Sistem Postingan: Buat postingan dengan teks & gambar, validasi di sisi klien, dan sistem *like*.
+- Sistem Grup: Buat grup, kelola keanggotaan, dan buat postingan khusus di dalam grup.
 
 ---
 
